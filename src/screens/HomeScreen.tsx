@@ -1,31 +1,41 @@
 // ========== Home Screen
 // import all modules
 import React from 'react';
-import {SafeAreaView, Text, Image, StyleSheet} from 'react-native';
-import {Fonts} from '../themes';
+import {SafeAreaView, StyleSheet, View} from 'react-native';
 
 // import all components
-import {Button} from '../components';
-
-// import assets
-import image1 from '../assets/images/Image-1.png';
+import {Button, Container, Row, Col} from '../components';
+import {Colors} from '../themes';
 
 const HomeScreen: React.FC = (): React.ReactNode => {
   return (
-    <SafeAreaView>
-      <Text style={styles.title}>Hello React Native</Text>
-      <Button>Click Me</Button>
-
-      <Image source={image1} />
+    <SafeAreaView style={styles.hero}>
+      <Container>
+        <View style={styles.header}>
+          <Row flexDirection="row">
+            <Col>
+              <Button type="primary">Like All</Button>
+            </Col>
+            <Col>
+              <Button type="ligth">Reset All</Button>
+            </Col>
+            <Col>
+              <Button type="danger">Dislike All</Button>
+            </Col>
+          </Row>
+        </View>
+      </Container>
     </SafeAreaView>
   );
 };
 
 const styles = StyleSheet.create({
-  title: {
-    fontSize: 24,
-    color: 'red',
-    fontFamily: Fonts.bold,
+  hero: {
+    backgroundColor: Colors.gray,
+    height: '100%',
+  },
+  header: {
+    paddingVertical: 20,
   },
 });
 
