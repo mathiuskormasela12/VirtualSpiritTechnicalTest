@@ -5,9 +5,15 @@ import {Colors, Fonts} from '../../themes';
 import {generateSize, shadowGenerator} from '../../helpers';
 
 export default StyleSheet.create({
-  btn: {
+  smallBtn: {
+    height: generateSize(10, 'width'),
+    width: generateSize(24, 'width'),
+  },
+  normalBtn: {
     height: generateSize(11, 'width'),
-    width: generateSize(28, 'width'),
+    width: generateSize(27, 'width'),
+  },
+  btn: {
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 13,

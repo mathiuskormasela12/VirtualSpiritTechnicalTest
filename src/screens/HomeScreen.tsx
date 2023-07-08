@@ -2,10 +2,12 @@
 // import all modules
 import React from 'react';
 import {SafeAreaView, StyleSheet, View} from 'react-native';
+import {Colors} from '../themes';
+import data from '../data';
 
 // import all components
-import {Button, Container, Row, Col} from '../components';
-import {Colors} from '../themes';
+import {Button, Container, Row, Col, Card} from '../components';
+import {generateSize} from '../helpers';
 
 const HomeScreen: React.FC = (): React.ReactNode => {
   return (
@@ -24,6 +26,15 @@ const HomeScreen: React.FC = (): React.ReactNode => {
             </Col>
           </Row>
         </View>
+        <View style={styles.main}>
+          <Row asScrollView>
+            {data.map(item => (
+              <Col key={item.id.toString()}>
+                <Card source={item.source} />
+              </Col>
+            ))}
+          </Row>
+        </View>
       </Container>
     </SafeAreaView>
   );
@@ -32,10 +43,14 @@ const HomeScreen: React.FC = (): React.ReactNode => {
 const styles = StyleSheet.create({
   hero: {
     backgroundColor: Colors.gray,
-    height: '100%',
+    height: generateSize(100, 'height'),
   },
   header: {
-    paddingVertical: 20,
+    height: generateSize(10, 'height'),
+    justifyContent: 'center',
+  },
+  main: {
+    height: generateSize(77, 'height'),
   },
 });
 

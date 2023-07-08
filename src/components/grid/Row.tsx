@@ -1,20 +1,29 @@
 // ========== Row
 // import all modules
 import React from 'react';
-import {StyleSheet, View} from 'react-native';
+import {StyleSheet, View, ScrollView} from 'react-native';
 import {IRowProps} from '../../types';
 
 export const Row: React.FC<IRowProps> = ({
   children,
   flexDirection = 'column',
+  asScrollView,
 }) => {
   switch (flexDirection) {
     case 'column': {
-      return <View style={styles.column}>{children}</View>;
+      return asScrollView ? (
+        <ScrollView style={styles.column}>{children}</ScrollView>
+      ) : (
+        <View style={styles.column}>{children}</View>
+      );
     }
 
     default: {
-      return <View style={styles.row}>{children}</View>;
+      return asScrollView ? (
+        <ScrollView style={styles.row}>{children}</ScrollView>
+      ) : (
+        <View style={styles.row}>{children}</View>
+      );
     }
   }
 };

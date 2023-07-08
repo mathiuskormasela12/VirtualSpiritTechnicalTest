@@ -6,8 +6,16 @@ import styles from './styles';
 
 // import types
 import {IButtonProps} from '../../types';
+import {generateSize} from '../../helpers';
+import {Colors} from '../../themes';
 
-export const Button: React.FC<IButtonProps> = ({children, type}) => {
+export const Button: React.FC<IButtonProps> = ({
+  children,
+  type,
+  small = false,
+  marginRight,
+  ...rest
+}) => {
   const computedStyles = [];
   const computedTextStyles = [];
 
@@ -27,9 +35,32 @@ export const Button: React.FC<IButtonProps> = ({children, type}) => {
       computedTextStyles.push(styles.btnPrimaryOrDangerText);
   }
 
+  if (small) {
+    computedStyles.push(styles.smallBtn);
+  } else {
+    computedStyles.push(styles.normalBtn);
+  }
+
+  const additionalStyle = [];
+
+  if (marginRight) {
+    additionalStyle.push({
+      marginRight: generateSize(marginRight, 'width'),
+    });
+  }
+
+  if (rest.disabled) {
+    additionalStyle.push({
+      backgroundColor: Colors.disabled,
+    });
+  }
+
   return (
     <SafeAreaView>
-      <TouchableHighlight style={[styles.btn, ...computedStyles]}>
+      <TouchableHighlight
+        disabled={rest.disabled}
+        onPress={rest?.onPress}
+        style={[styles.btn, ...computedStyles, ...additionalStyle]}>
         <Text style={[styles.title, ...computedTextStyles]}>{children}</Text>
       </TouchableHighlight>
     </SafeAreaView>

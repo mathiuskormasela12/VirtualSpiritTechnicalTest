@@ -7,4 +7,5 @@ export const Colors = {
   light: '#F4F4F4',
   white: '#FFFFFF',
   gray: '#F4F4F4',
+  disabled: '#D5D5D5',
 };
