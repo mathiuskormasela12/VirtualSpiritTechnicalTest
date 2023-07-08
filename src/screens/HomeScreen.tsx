@@ -1,6 +1,6 @@
 // ========== Home Screen
 // import all modules
-import React from 'react';
+import React, {useState} from 'react';
 import {SafeAreaView, StyleSheet, View} from 'react-native';
 import {Colors} from '../themes';
 import data from '../data';
@@ -8,21 +8,53 @@ import data from '../data';
 // import all components
 import {Button, Container, Row, Col, Card} from '../components';
 import {generateSize} from '../helpers';
+import {CardActionTypes} from '../types';
 
 const HomeScreen: React.FC = (): React.ReactNode => {
+  const [states, setStates] = useState({
+    likeActionIsDoing: false,
+    dislikeActionIsDoing: false,
+    resetAction: false,
+  });
+
+  const handleLikeActionOrDislikeActionIsDoing = (name: CardActionTypes) => {
+    setStates(currentState => ({
+      ...currentState,
+      [name]: !currentState[name],
+    }));
+  };
+
   return (
     <SafeAreaView style={styles.hero}>
       <Container>
         <View style={styles.header}>
           <Row flexDirection="row">
             <Col>
-              <Button type="primary">Like All</Button>
+              <Button
+                type="primary"
+                onPress={() =>
+                  handleLikeActionOrDislikeActionIsDoing('likeActionIsDoing')
+                }>
+                Like All
+              </Button>
             </Col>
             <Col>
-              <Button type="ligth">Reset All</Button>
+              <Button
+                type="ligth"
+                onPress={() =>
+                  handleLikeActionOrDislikeActionIsDoing('resetAction')
+                }>
+                Reset All
+              </Button>
             </Col>
             <Col>
-              <Button type="danger">Dislike All</Button>
+              <Button
+                type="danger"
+                onPress={() =>
+                  handleLikeActionOrDislikeActionIsDoing('dislikeActionIsDoing')
+                }>
+                Dislike All
+              </Button>
             </Col>
           </Row>
         </View>
@@ -30,7 +62,15 @@ const HomeScreen: React.FC = (): React.ReactNode => {
           <Row asScrollView>
             {data.map(item => (
               <Col key={item.id.toString()}>
-                <Card source={item.source} />
+                <Card
+                  source={item.source}
+                  likeActionIsDoing={states.likeActionIsDoing}
+                  dislikeActionIsDoing={states.dislikeActionIsDoing}
+                  resetAction={states.resetAction}
+                  handleLikeActionOrDislikeActionIsDoing={
+                    handleLikeActionOrDislikeActionIsDoing
+                  }
+                />
               </Col>
             ))}
           </Row>
