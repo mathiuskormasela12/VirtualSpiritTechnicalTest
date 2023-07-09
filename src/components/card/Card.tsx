@@ -1,49 +1,24 @@
 // =========== Card
 // import all modules
-import React, {useState, useEffect} from 'react';
+import React, {useEffect} from 'react';
 import {SafeAreaView, View, Image} from 'react-native';
+import {useCard} from '../../hooks';
+
+// import types
+import {ICardProps} from '../../types';
+
+// import styles
 import styles from './styles';
-import {Row} from '../grid/Row';
-import {Col} from '../grid/Col';
-import {Button} from '../button/Button';
-import {CardStateTypes, ICardProps} from '../../types';
 
-export const Card: React.FC<ICardProps> = ({
-  source,
-  likeActionIsDoing,
-  dislikeActionIsDoing,
-  resetAction,
-  handleLikeActionOrDislikeActionIsDoing,
-}) => {
-  const [like, setLike] = useState(0);
+// import all components
+import {Row, Col, Button} from '../';
 
-  const handleState = (name: CardStateTypes) => {
-    if (name === 'like') {
-      setLike(currentLike => currentLike + 1);
-    } else if (name === 'dislike') {
-      setLike(currentLike => (currentLike > 0 ? currentLike - 1 : currentLike));
-    } else if (name === 'reset') {
-      setLike(() => 0);
-    }
-  };
+export const Card: React.FC<ICardProps> = ({source}) => {
+  const [like, handleState, startEffect, states] = useCard();
 
   useEffect(() => {
-    if (likeActionIsDoing) {
-      handleState('like');
-      handleLikeActionOrDislikeActionIsDoing('likeActionIsDoing');
-    } else if (dislikeActionIsDoing) {
-      handleState('dislike');
-      handleLikeActionOrDislikeActionIsDoing('dislikeActionIsDoing');
-    } else if (resetAction) {
-      handleState('reset');
-      handleLikeActionOrDislikeActionIsDoing('resetAction');
-    }
-  }, [
-    dislikeActionIsDoing,
-    likeActionIsDoing,
-    resetAction,
-    handleLikeActionOrDislikeActionIsDoing,
-  ]);
+    startEffect();
+  }, [states, startEffect]);
 
   return (
     <SafeAreaView style={styles.card}>

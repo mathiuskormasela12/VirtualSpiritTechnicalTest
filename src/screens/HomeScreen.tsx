@@ -1,28 +1,26 @@
 // ========== Home Screen
 // import all modules
-import React, {useState} from 'react';
+import React from 'react';
 import {SafeAreaView, StyleSheet, View} from 'react-native';
+import {useDispatch} from 'react-redux';
+
+// import themes
 import {Colors} from '../themes';
+
+// import static data
 import data from '../data';
 
 // import all components
 import {Button, Container, Row, Col, Card} from '../components';
+
+// import helpers
 import {generateSize} from '../helpers';
-import {CardActionTypes} from '../types';
+
+// import redux action
+import {handleLikeAction} from '../redux/actions';
 
 const HomeScreen: React.FC = (): React.ReactNode => {
-  const [states, setStates] = useState({
-    likeActionIsDoing: false,
-    dislikeActionIsDoing: false,
-    resetAction: false,
-  });
-
-  const handleLikeActionOrDislikeActionIsDoing = (name: CardActionTypes) => {
-    setStates(currentState => ({
-      ...currentState,
-      [name]: !currentState[name],
-    }));
-  };
+  const dispatch = useDispatch();
 
   return (
     <SafeAreaView style={styles.hero}>
@@ -33,7 +31,7 @@ const HomeScreen: React.FC = (): React.ReactNode => {
               <Button
                 type="primary"
                 onPress={() =>
-                  handleLikeActionOrDislikeActionIsDoing('likeActionIsDoing')
+                  dispatch(handleLikeAction('LIKE_ACTION_IS_BEING_DONE', true))
                 }>
                 Like All
               </Button>
@@ -42,7 +40,7 @@ const HomeScreen: React.FC = (): React.ReactNode => {
               <Button
                 type="ligth"
                 onPress={() =>
-                  handleLikeActionOrDislikeActionIsDoing('resetAction')
+                  dispatch(handleLikeAction('RESET_ACTION_IS_BEING_DONE', true))
                 }>
                 Reset All
               </Button>
@@ -51,7 +49,9 @@ const HomeScreen: React.FC = (): React.ReactNode => {
               <Button
                 type="danger"
                 onPress={() =>
-                  handleLikeActionOrDislikeActionIsDoing('dislikeActionIsDoing')
+                  dispatch(
+                    handleLikeAction('DISLIKE_ACTION_IS_BEING_DONE', true),
+                  )
                 }>
                 Dislike All
               </Button>
@@ -62,15 +62,7 @@ const HomeScreen: React.FC = (): React.ReactNode => {
           <Row asScrollView>
             {data.map(item => (
               <Col key={item.id.toString()}>
-                <Card
-                  source={item.source}
-                  likeActionIsDoing={states.likeActionIsDoing}
-                  dislikeActionIsDoing={states.dislikeActionIsDoing}
-                  resetAction={states.resetAction}
-                  handleLikeActionOrDislikeActionIsDoing={
-                    handleLikeActionOrDislikeActionIsDoing
-                  }
-                />
+                <Card source={item.source} />
               </Col>
             ))}
           </Row>
