@@ -17,6 +17,7 @@
 		7E283044754C4AD7BBC1FA95 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E7148B11D87442CB03EC5F0 /* Roboto-Regular.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		D2FB1BAEE4274C53A335A609 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 198063F1C93E460ABD111871 /* Roboto-Bold.ttf */; };
+		EF7AA31D2A5B0D40005CC863 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7AA31C2A5B0D40005CC863 /* BootSplash.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = VirtualSpiritTechnicalTest/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests.release.xcconfig"; path = "Target Support Files/Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests/Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EF7AA31C2A5B0D40005CC863 /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = VirtualSpiritTechnicalTest/BootSplash.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				EF7AA31C2A5B0D40005CC863 /* BootSplash.storyboard */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
@@ -262,6 +265,7 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				D2FB1BAEE4274C53A335A609 /* Roboto-Bold.ttf in Resources */,
+				EF7AA31D2A5B0D40005CC863 /* BootSplash.storyboard in Resources */,
 				6E4B829137EF4A358E091676 /* Roboto-Medium.ttf in Resources */,
 				7E283044754C4AD7BBC1FA95 /* Roboto-Regular.ttf in Resources */,
 			);

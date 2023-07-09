@@ -3,6 +3,7 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import RNBootSplash from 'react-native-bootsplash';
 import {Provider} from 'react-redux';
 import reduxStore from './redux/store';
 
@@ -15,7 +16,7 @@ const App: React.FC = () => {
   const {store} = reduxStore;
   return (
     <Provider store={store}>
-      <NavigationContainer>
+      <NavigationContainer onReady={() => RNBootSplash.hide()}>
         <Stack.Navigator>
           <Stack.Screen
             name="Home"
