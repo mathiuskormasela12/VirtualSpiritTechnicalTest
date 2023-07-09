@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* VirtualSpiritTechnicalTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VirtualSpiritTechnicalTestTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-VirtualSpiritTechnicalTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-VirtualSpiritTechnicalTest.a */; };
+		00E356F31AD99517003FC87E /* LikeCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* LikeCounterTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-LikeCounter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-LikeCounter.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		6E4B829137EF4A358E091676 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F01FCB24EE147B9A8D1FC2B /* Roboto-Medium.ttf */; };
-		7699B88040F8A987B510C191 /* libPods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests.a */; };
+		7699B88040F8A987B510C191 /* libPods-LikeCounter-LikeCounterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-LikeCounter-LikeCounterTests.a */; };
 		7E283044754C4AD7BBC1FA95 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E7148B11D87442CB03EC5F0 /* Roboto-Regular.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		D2FB1BAEE4274C53A335A609 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 198063F1C93E460ABD111871 /* Roboto-Bold.ttf */; };
@@ -26,32 +26,32 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = VirtualSpiritTechnicalTest;
+			remoteInfo = LikeCounter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* VirtualSpiritTechnicalTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualSpiritTechnicalTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* LikeCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* VirtualSpiritTechnicalTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VirtualSpiritTechnicalTestTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* VirtualSpiritTechnicalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualSpiritTechnicalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = VirtualSpiritTechnicalTest/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = VirtualSpiritTechnicalTest/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VirtualSpiritTechnicalTest/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VirtualSpiritTechnicalTest/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = VirtualSpiritTechnicalTest/main.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* LikeCounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikeCounterTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* LikeCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LikeCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = LikeCounter/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = LikeCounter/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LikeCounter/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LikeCounter/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LikeCounter/main.m; sourceTree = "<group>"; };
 		198063F1C93E460ABD111871 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../src/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-VirtualSpiritTechnicalTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualSpiritTechnicalTest.debug.xcconfig"; path = "Target Support Files/Pods-VirtualSpiritTechnicalTest/Pods-VirtualSpiritTechnicalTest.debug.xcconfig"; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-LikeCounter-LikeCounterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LikeCounter-LikeCounterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-LikeCounter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeCounter.debug.xcconfig"; path = "Target Support Files/Pods-LikeCounter/Pods-LikeCounter.debug.xcconfig"; sourceTree = "<group>"; };
 		4E7148B11D87442CB03EC5F0 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-VirtualSpiritTechnicalTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualSpiritTechnicalTest.release.xcconfig"; path = "Target Support Files/Pods-VirtualSpiritTechnicalTest/Pods-VirtualSpiritTechnicalTest.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests.debug.xcconfig"; path = "Target Support Files/Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests/Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-VirtualSpiritTechnicalTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VirtualSpiritTechnicalTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5709B34CF0A7D63546082F79 /* Pods-LikeCounter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeCounter.release.xcconfig"; path = "Target Support Files/Pods-LikeCounter/Pods-LikeCounter.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-LikeCounter-LikeCounterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeCounter-LikeCounterTests.debug.xcconfig"; path = "Target Support Files/Pods-LikeCounter-LikeCounterTests/Pods-LikeCounter-LikeCounterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-LikeCounter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LikeCounter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F01FCB24EE147B9A8D1FC2B /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../src/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = VirtualSpiritTechnicalTest/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests.release.xcconfig"; path = "Target Support Files/Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests/Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = LikeCounter/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-LikeCounter-LikeCounterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeCounter-LikeCounterTests.release.xcconfig"; path = "Target Support Files/Pods-LikeCounter-LikeCounterTests/Pods-LikeCounter-LikeCounterTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		EF7AA31C2A5B0D40005CC863 /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = VirtualSpiritTechnicalTest/BootSplash.storyboard; sourceTree = "<group>"; };
+		EF7AA31C2A5B0D40005CC863 /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = LikeCounter/BootSplash.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests.a in Frameworks */,
+				7699B88040F8A987B510C191 /* libPods-LikeCounter-LikeCounterTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,20 +67,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-VirtualSpiritTechnicalTest.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-LikeCounter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* VirtualSpiritTechnicalTestTests */ = {
+		00E356EF1AD99517003FC87E /* LikeCounterTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* VirtualSpiritTechnicalTestTests.m */,
+				00E356F21AD99517003FC87E /* LikeCounterTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = VirtualSpiritTechnicalTestTests;
+			path = LikeCounterTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -91,7 +91,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* VirtualSpiritTechnicalTest */ = {
+		13B07FAE1A68108700A75B9A /* LikeCounter */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -102,15 +102,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = VirtualSpiritTechnicalTest;
+			name = LikeCounter;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-VirtualSpiritTechnicalTest.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests.a */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-LikeCounter.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-LikeCounter-LikeCounterTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,9 +135,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* VirtualSpiritTechnicalTest */,
+				13B07FAE1A68108700A75B9A /* LikeCounter */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* VirtualSpiritTechnicalTestTests */,
+				00E356EF1AD99517003FC87E /* LikeCounterTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -151,8 +151,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* VirtualSpiritTechnicalTest.app */,
-				00E356EE1AD99517003FC87E /* VirtualSpiritTechnicalTestTests.xctest */,
+				13B07F961A680F5B00A75B9A /* LikeCounter.app */,
+				00E356EE1AD99517003FC87E /* LikeCounterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,10 +160,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-VirtualSpiritTechnicalTest.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-VirtualSpiritTechnicalTest.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests.release.xcconfig */,
+				3B4392A12AC88292D35C810B /* Pods-LikeCounter.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-LikeCounter.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-LikeCounter-LikeCounterTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-LikeCounter-LikeCounterTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -171,9 +171,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* VirtualSpiritTechnicalTestTests */ = {
+		00E356ED1AD99517003FC87E /* LikeCounterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VirtualSpiritTechnicalTestTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LikeCounterTests" */;
 			buildPhases = (
 				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -187,14 +187,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = VirtualSpiritTechnicalTestTests;
-			productName = VirtualSpiritTechnicalTestTests;
-			productReference = 00E356EE1AD99517003FC87E /* VirtualSpiritTechnicalTestTests.xctest */;
+			name = LikeCounterTests;
+			productName = LikeCounterTests;
+			productReference = 00E356EE1AD99517003FC87E /* LikeCounterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* VirtualSpiritTechnicalTest */ = {
+		13B07F861A680F5B00A75B9A /* LikeCounter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VirtualSpiritTechnicalTest" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "LikeCounter" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -209,9 +209,9 @@
 			);
 			dependencies = (
 			);
-			name = VirtualSpiritTechnicalTest;
-			productName = VirtualSpiritTechnicalTest;
-			productReference = 13B07F961A680F5B00A75B9A /* VirtualSpiritTechnicalTest.app */;
+			name = LikeCounter;
+			productName = LikeCounter;
+			productReference = 13B07F961A680F5B00A75B9A /* LikeCounter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -231,7 +231,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "VirtualSpiritTechnicalTest" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "LikeCounter" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -244,8 +244,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* VirtualSpiritTechnicalTest */,
-				00E356ED1AD99517003FC87E /* VirtualSpiritTechnicalTestTests */,
+				13B07F861A680F5B00A75B9A /* LikeCounter */,
+				00E356ED1AD99517003FC87E /* LikeCounterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -296,15 +296,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VirtualSpiritTechnicalTest/Pods-VirtualSpiritTechnicalTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LikeCounter/Pods-LikeCounter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VirtualSpiritTechnicalTest/Pods-VirtualSpiritTechnicalTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LikeCounter/Pods-LikeCounter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirtualSpiritTechnicalTest/Pods-VirtualSpiritTechnicalTest-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LikeCounter/Pods-LikeCounter-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -322,7 +322,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LikeCounter-LikeCounterTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -344,7 +344,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VirtualSpiritTechnicalTest-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LikeCounter-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -357,15 +357,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests/Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LikeCounter-LikeCounterTests/Pods-LikeCounter-LikeCounterTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests/Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LikeCounter-LikeCounterTests/Pods-LikeCounter-LikeCounterTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests/Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LikeCounter-LikeCounterTests/Pods-LikeCounter-LikeCounterTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -374,15 +374,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VirtualSpiritTechnicalTest/Pods-VirtualSpiritTechnicalTest-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LikeCounter/Pods-LikeCounter-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VirtualSpiritTechnicalTest/Pods-VirtualSpiritTechnicalTest-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LikeCounter/Pods-LikeCounter-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirtualSpiritTechnicalTest/Pods-VirtualSpiritTechnicalTest-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LikeCounter/Pods-LikeCounter-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -391,15 +391,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests/Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LikeCounter-LikeCounterTests/Pods-LikeCounter-LikeCounterTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests/Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LikeCounter-LikeCounterTests/Pods-LikeCounter-LikeCounterTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests/Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LikeCounter-LikeCounterTests/Pods-LikeCounter-LikeCounterTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -428,7 +428,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* VirtualSpiritTechnicalTestTests.m in Sources */,
+				00E356F31AD99517003FC87E /* LikeCounterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +446,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* VirtualSpiritTechnicalTest */;
+			target = 13B07F861A680F5B00A75B9A /* LikeCounter */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -454,14 +454,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests.debug.xcconfig */;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-LikeCounter-LikeCounterTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = VirtualSpiritTechnicalTestTests/Info.plist;
+				INFOPLIST_FILE = LikeCounterTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -473,19 +473,19 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathius.likecounter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualSpiritTechnicalTest.app/VirtualSpiritTechnicalTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LikeCounter.app/LikeCounter";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-VirtualSpiritTechnicalTest-VirtualSpiritTechnicalTestTests.release.xcconfig */;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-LikeCounter-LikeCounterTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = VirtualSpiritTechnicalTestTests/Info.plist;
+				INFOPLIST_FILE = LikeCounterTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -497,21 +497,22 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathius.likecounter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualSpiritTechnicalTest.app/VirtualSpiritTechnicalTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LikeCounter.app/LikeCounter";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-VirtualSpiritTechnicalTest.debug.xcconfig */;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-LikeCounter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = VirtualSpiritTechnicalTest/Info.plist;
+				INFOPLIST_FILE = LikeCounter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Like Counter";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,8 +523,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = VirtualSpiritTechnicalTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathius.likecounter;
+				PRODUCT_NAME = LikeCounter;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -532,12 +533,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-VirtualSpiritTechnicalTest.release.xcconfig */;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-LikeCounter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = VirtualSpiritTechnicalTest/Info.plist;
+				INFOPLIST_FILE = LikeCounter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Like Counter";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -548,8 +550,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = VirtualSpiritTechnicalTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathius.likecounter;
+				PRODUCT_NAME = LikeCounter;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -697,7 +699,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VirtualSpiritTechnicalTestTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LikeCounterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -706,7 +708,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VirtualSpiritTechnicalTest" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "LikeCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -715,7 +717,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "VirtualSpiritTechnicalTest" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "LikeCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

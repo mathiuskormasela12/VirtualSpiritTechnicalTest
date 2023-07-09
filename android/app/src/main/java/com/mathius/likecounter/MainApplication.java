@@ -1,4 +1,4 @@
-package com.virtualspirittechnicaltest;
+package com.mathius.likecounter;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

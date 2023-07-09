@@ -73,9 +73,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.virtualspirittechnicaltest"
+    namespace "com.mathius.likecounter"
     defaultConfig {
-        applicationId "com.virtualspirittechnicaltest"
+        applicationId "com.mathius.likecounter"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
